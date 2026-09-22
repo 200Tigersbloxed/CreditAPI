@@ -14,7 +14,7 @@ Example response
 {"message": "Got information!", "value": 0}
 ```
 
-`SET /users/set?name=string&value=int`
+`GET /users/set?name=string&value=int`
 
 Sets the current value for the supplied user
 
