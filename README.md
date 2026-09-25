@@ -4,7 +4,7 @@ A simple API written in HolyC to track users and their credit scores.
 
 ## HTTP API
 
-`GET /users/get?name=string`
+`GET /user/get?name=string`
 
 Gets the current value for the supplied user
 
@@ -14,7 +14,7 @@ Example response
 {"message": "Got information!", "value": 0}
 ```
 
-`GET /users/set?name=string&value=int`
+`GET /user/set?name=string&value=int`
 
 Sets the current value for the supplied user
 
